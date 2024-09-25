@@ -46,13 +46,13 @@ const FeaturesGrid = () => {
       cardGradientAfter: "after:content-[''] after:bg-grad-theme-135 after:absolute after:w-[213px] after:h-[213px] after:top-[40%] after:-right-[25%] after:blur-[30px] after:rounded-full",
       cardGradientBefore: "before:content-[''] before:bg-grad-theme-135 before:absolute before:w-[200px] before:h-[200px] before:-top-[10%] before:-left-[10%] before:blur-[30px] before:rounded-full",
     }
-  ]
+  ];
 
   return (
     <section className="py-[65px] text-white px-4">
       <h2 className="text-center lg:text-3xl md:text-2xl text-xl font-semibold font-montserrat max-w-[986px] mx-auto">
-        Never waste more than a day handing over design requirements with these
-        features:
+        Nunca desperdice mais do que um dia passando requisitos de design com essas
+        funcionalidades:
       </h2>
       <div className="max-w-[1200px] mx-auto lg:mt-[65px] mt-10">
         <div className="grid grid-cols-3 xxl:gap-10 xl:gap-8 lg:gap-6 gap-4 lg:mt-[65px] mt-10">
@@ -87,7 +87,7 @@ const FeaturesGrid = () => {
                       <h4 className="lg:text-2xl md:text-xl text-lg text-white font-montserrat text-center font-semibold">
                         {title}
                       </h4>
-                      <p className="text-white lg:text-base tet-sm">
+                      <p className="text-white lg:text-base text-sm">
                         {description}
                       </p>
                     </div>

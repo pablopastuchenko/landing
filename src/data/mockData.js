@@ -4,17 +4,17 @@ import { Images } from "../assets/images";
 export const FEATURES_DATA = [
   {
     id: "feat_1",
-    title: "AI-Assisted Requirement Management",
+    title: "Gerenciamento de Requisitos Assistido por IA",
     image: Images.ai_assisted,
   },
   {
     id: "feat_2",
-    title: "Efficient AI-Driven Communication",
+    title: "Comunicação Eficiente Baseada em IA",
     image: Images.ai_driven,
   },
   {
     id: "feat_3",
-    title: "Scope Creep Management",
+    title: "Gerenciamento de Escopo",
     image: Images.scope,
   },
 ];
@@ -22,36 +22,36 @@ export const FEATURES_DATA = [
 export const FEATURES_GRID_DATA = [
   {
     id: "feat_grid_1",
-    title: "AI Process Map Generation",
+    title: "Geração de Mapas de Processos com IA",
     description:
-      "Generate User Journeys and automate the Journey creation flow with AI",
+      "Gere Jornadas do Usuário e automatize o fluxo de criação de jornadas com IA",
     image: Images.ai_process,
   },
   {
     id: "feat_grid_2",
-    title: "Automatic AI Generated User Stories",
-    description: "Create User Stories with AI based on your User Journeys.",
+    title: "Histórias de Usuário Geradas Automaticamente por IA",
+    description: "Crie Histórias de Usuário com IA com base nas suas Jornadas do Usuário.",
     image: Images.user_stories,
   },
   {
     id: "feat_grid_3",
-    title: "AI Test Case Generation",
+    title: "Geração de Casos de Teste com IA",
     description:
-      "Easily Sync your User Import Designs seamlessly to create Acceptance Criteria for every screen and each User Story. Stories, Epics, and Acceptance Criteria to Jira or Azure for production.",
+      "Sincronize facilmente seus Designs de Importação de Usuários para criar Critérios de Aceitação para cada tela e cada História de Usuário. Histórias, Épicos e Critérios de Aceitação para Jira ou Azure para produção.",
     image: Images.ai_test_case,
   },
   {
     id: "feat_grid_4",
-    title: "Import your Designs",
+    title: "Importe seus Designs",
     description:
-      "Import your designs from Figma seamlessly and use AI to narrate your user flows.",
+      "Importe seus designs do Figma de forma simples e use IA para narrar seus fluxos de usuários.",
     image: Images.import_design,
   },
   {
     id: "feat_grid_5",
-    title: "Sync to your Tools",
+    title: "Sincronize com suas Ferramentas",
     description:
-      "Easily Sync your User Stories, Epics, and Acceptance Criteria to Jira or Azure for production.",
+      "Sincronize facilmente suas Histórias de Usuário, Épicos e Critérios de Aceitação para Jira ou Azure para produção.",
     image: Images.sync_tools,
   },
 ];
@@ -60,23 +60,23 @@ export const UPLIFT_DELIVERY_DATA = [
   {
     id: "uplift_1",
     icon: Icons.storage,
-    title: "80% savings on testing expenditure",
+    title: "80% de economia nos gastos com testes",
     description:
-      "Achieve over $70,000 in testing cost savings, automate QA roles within agile squads, and enhance communication among BAs, Developers, and Product Owners for streamlined operations and improved collaboration.",
+      "Alcance mais de $70.000 em economia de custos de testes, automatize funções de QA dentro de squads ágeis e melhore a comunicação entre BAs, Desenvolvedores e Product Owners para operações simplificadas e melhor colaboração.",
   },
   {
     id: "uplift_2",
     icon: Icons.spiral,
-    title: "Never lose track of your features",
+    title: "Nunca perca o controle das suas funcionalidades",
     description:
-      "Streamline documentation across JIRA, Confluence, and git repositories, gain instant product insights, and maintain testing traceability with our comprehensive test script dashboard.",
+      "Aperfeiçoe a documentação em JIRA, Confluence e repositórios git, obtenha insights instantâneos do produto e mantenha a rastreabilidade dos testes com nosso painel abrangente de scripts de teste.",
   },
   {
     id: "uplift_3",
     icon: Icons.code,
-    title: "Less meetings more coding",
+    title: "Menos reuniões, mais programação",
     description:
-      "ReqOPS requirement briefs are detailed to ensure your engineers enjoy working with us. We provide comprehensive user stories, functional UI test cases, CI integration, automated process flow generation, AI workshops, and more.",
+      "Os resumos de requisitos da ReqOPS são detalhados para garantir que seus engenheiros gostem de trabalhar conosco. Fornecemos histórias de usuário abrangentes, casos de teste UI funcionais, integração CI, geração automática de fluxos de processos, workshops de IA e muito mais.",
   },
 ];
 
@@ -84,44 +84,44 @@ export const COLLECTIVE_DELIVERY_DATA = [
   {
     id: "collective_1",
     icon: Icons.project_cord,
-    title: "Project Coordination",
+    title: "Coordenação de Projetos",
     description:
-      "Ensure efficient planning, execution, and completion of projects, keeping them on schedule and within budget.",
+      "Garanta planejamento, execução e conclusão eficientes dos projetos, mantendo-os no cronograma e dentro do orçamento.",
   },
   {
     id: "collective_2",
     icon: Icons.risk_mgmt,
-    title: "Risk Management",
+    title: "Gerenciamento de Riscos",
     description:
-      "Proactively identify and mitigate risks to prevent delays and project failures.",
+      "Identifique e mitigue riscos proativamente para evitar atrasos e falhas no projeto.",
   },
   {
     id: "collective_3",
     icon: Icons.communication,
-    title: "Communication",
+    title: "Comunicação",
     description:
-      "They maintain open communication between teams and stakeholders, ensuring alignment and clarity on project goals.",
+      "Mantenha uma comunicação aberta entre as equipes e partes interessadas, garantindo alinhamento e clareza nos objetivos do projeto.",
   },
   {
     id: "collective_4",
     icon: Icons.strategic_align,
-    title: "Strategic Alignment",
+    title: "Alinhamento Estratégico",
     description:
-      "They ensure projects align with and contribute to the organisation’s strategic objectives.",
+      "Garanta que os projetos estejam alinhados e contribuam para os objetivos estratégicos da organização.",
   },
   {
     id: "collective_5",
     icon: Icons.scope_mgmt,
-    title: "Scope Management",
+    title: "Gerenciamento de Escopo",
     description:
-      "Changes in project scope or resources, adapting strategies to ensure successful outcomes.",
+      "Alterações no escopo ou nos recursos do projeto, adaptando estratégias para garantir resultados bem-sucedidos.",
   },
   {
     id: "collective_6",
     icon: Icons.quality_assur,
-    title: "Quality Assurance",
+    title: "Garantia de Qualidade",
     description:
-      "Oversee project standards and quality, ensuring outputs meet or exceed expectations.",
+      "Supervise os padrões e a qualidade do projeto, garantindo que os resultados atendam ou superem as expectativas.",
   },
 ];
 
@@ -129,29 +129,30 @@ export const FRAMEWORK_DATA = [
   {
     id: "framework_1",
     image: Images.framework1,
-    title: "Requirements Management",
+    title: "Gerenciamento de Requisitos",
     description:
-      "Track project progress, health, risks, and status. Log feedback, and monitor scope creep to ensure stakeholders are always informed, providing a clear and up-to-date understanding of the project's status for effective decision-making and smoother execution.",
+      "Acompanhe o progresso, a saúde, os riscos e o status do projeto. Registre feedback e monitore o escopo para garantir que as partes interessadas estejam sempre informadas, proporcionando uma compreensão clara e atualizada do status do projeto para uma tomada de decisão eficaz e uma execução mais tranquila.",
   },
   {
     id: "framework_2",
     image: Images.framework2,
-    title: "Automatic BPMN 2.0 Generation",
+    title: "Geração Automática de BPMN 2.0",
     description:
-      "Leverage intuitive AI to create Process Maps, User Journeys, and flows automatically. Generate diagrams for each feature effortlessly, eliminating the need for manual layout and streamlining the visualization process.",
+      "Aproveite a IA intuitiva para criar Mapas de Processos, Jornadas do Usuário e fluxos automaticamente. Gere diagramas para cada funcionalidade sem esforço, eliminando a necessidade de layout manual e simplificando o processo de visualização.",
   },
   {
     id: "framework_3",
     image: Images.framework3,
-    title: "Test Automation",
+    title: "Automação de Testes",
     description:
-      "Simplify the creation of Acceptance Criteria and execution of automated test scripts. Track testing progress and eliminate the need for manual testing, enhancing efficiency and accuracy in the testing process.",
+      "Simplifique a criação de Critérios de Aceitação e a execução de scripts de teste automatizados. Acompanhe o progresso dos testes e elimine a necessidade de testes manuais, aumentando a eficiência e a precisão no processo de teste.",
   },
   {
     id: "framework_4",
     image: Images.framework4,
-    title: "Integrate into your existing ecosystem",
+    title: "Integre ao seu ecossistema existente",
     description:
-      "Integrate into your existing ecosystem seamlessly by syncing Reqops with tools like Jira, Azure, and Asana. Continue using your preferred tools while Reqops creates and manages your tickets, saving you the time and effort of manual ticket creation.",
+      "Integre ao seu ecossistema existente de forma simples sincronizando a Reqops com ferramentas como Jira, Azure e Asana. Continue usando suas ferramentas preferidas enquanto a Reqops cria e gerencia seus tickets, economizando tempo e esforço na criação manual de tickets.",
   },
 ];
+

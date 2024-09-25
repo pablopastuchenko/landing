@@ -21,17 +21,16 @@ const ProcessMap = () => {
           }}
         >
           <h3 className="lg:text-2xl md:text-xl text-lg font-semibold font-montserrat">
-            Try our FREE Process Map Generator
+            Experimente nosso GERADOR DE MAPAS DE PROCESSO GRÁTIS
           </h3>
           <p className="mt-3 mb-10 font-source-sans lg:text-xl md:text-lg text-base">
-            Generate Process Flow maps and diagrams for your projects with
-            automated AI generation of User Stories.
+            Gere mapas de fluxo de processos e diagramas para seus projetos com a geração automática de histórias de usuário por IA.
           </p>
           <button
             type="submit"
             className="bg-risd-blue rounded-lg lg:min-h-[56px] min-h-[50px] text-nowrap md:text-base text-sm px-5 font-semibold hover:scale-105 transition-all duration-300 ease-in-out"
           >
-            Try it Now For Free
+            Experimente Agora Gratuitamente
           </button>
         </motion.div>
         <motion.div
